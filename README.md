@@ -1,7 +1,14 @@
 # greenERS
 - *GreenGrowth*
 
+> Créer une base Next.js prête à l’emploi pour un site ou une plateforme liée au thème “Greeners” (écologie, croissance verte, communauté, ou branding personnel).
+
+Autrement dit :  
+```text
+👉 Un template Next.js que tu vas personnaliser pour ton projet Greeners.
+
 Ceci est un projet Next.js initialisé avec *create-next-app*.
+```
 
 ### 🚀 Pour commencer
 - Lance d’abord le serveur de développement :
