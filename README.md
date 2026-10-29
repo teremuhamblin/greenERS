@@ -14,98 +14,86 @@
 
 ---
 
-### 📘 Présentation
+### 📘 Modern Green Tech Starter 🌱⚡
 
-**greenERS** est un *projet basé sur Next.js*, conçu comme une fondation moderne, rapide et évolutive pour développer une application web autour du thème
-- 》》Green Growth / Green Ecology / Green Tech.  
+greenERS est un starter *Next.js* moderne, rapide et évolutif conçu pour bâtir des applications web autour des thèmes :
 
-> Ce dépôt sert de starter propre, prêt à être étendu avec des pages, un design, une API, et des fonctionnalités avancées.
+》》 Green Growth • Green Ecology • Green Tech
 
----
-
-###.🚀 Fonctionnalités actuelles
-```text
-- ⚡️ Next.js 14 (App Router)  
-- 🎨 Optimisation automatique des polices via next/font  
-- 🔄 Hot Reloading  
-- 📁 Structure minimaliste, prête à évoluer  
-- 🧩 Compatible Yarn / npm / pnpm / bun  
+Ce dépôt fournit une base propre, structurée et extensible pour créer :
+```markdown
+- une plateforme écologique,
+- un dashboard green analytics,
+- un site Green Tech,
+- ou toute application centrée sur l’innovation durable.
 ```
 
 ---
 
-### 🛠️ Installation & Lancement
+### 🚀 Fonctionnalités
+```markdown
+- Next.js App Router (moderne & performant)
+- Structure claire et évolutive
+- Pages thématiques Green Tech
+- API minimale prête à étendre
+- UI components réutilisables
+- Mode sombre / clair
+- CI/CD GitHub Actions
+- Documentation complète
+```
 
+---
+
+### 📦 Installation
 ```bash
-npm install
-npm run dev
-
-ou
-- **yarn dev**
-
-ou
-- **pnpm dev*(
-
-ou
-- **bun dev**
-```
-
-》》 Ouvre ensuite :  
-**👉 http://localhost:3000**
-
----
-
-### 📂 Structure du projet
-```markdown
-VOIR docs/structure.md
-```
-
-### 🎯 Objectifs du projet
-```markdown
-- Créer une base Next.js simple, propre et extensible  
-- Développer une identité visuelle Green / Eco / Modern  
-- Ajouter des pages thématiques (GreenGrowth, GreenTech, GreenCommunity)  
-- Intégrer un design moderne (UI/UX minimaliste, vert, nature)  
-- Préparer une API pour des données dynamiques (projets, articles, stats)  
-- Déployer facilement sur Vercel  
+git clone https://github.com/teremuhamblin/greenERS
+cd greenERS
+yarn install
+yarn dev
 ```
 
 ---
 
-### 📚 Ressources utiles
+### 📁 Structure du projet
+》》 **Voir ARCHITECTURE.md pour les détails**
+```markdown
+🧩 Pages incluses
+- /green-growth
+- /green-ecology
+- /green-tech
+- /about
+- /contact
+- /api/projects
+```
+```markdown
+🛠️ CI/CD
+- Build & Lint
+- Security Audit
+- Preview Deploy (Vercel)
+- Dependabot Auto-Merge
+```
+```markdown
+📚 Documentation
+- ARCHITECTURE.md  
+- ROADMAP.md  
+- SECURITY.md  
+- CONTRIBUTING.md  
+- Templates GitHub
+```
+
+---
+
+### 📜 Licence
+》》 **Voir fichier LICENSE**
+
+---
+
+### 🌍 Vision
 ```text
-- 📘 Documentation Next.js : **https://nextjs.org/docs** 
-- 🎓 Tutoriel interactif : **https://nextjs.org/learn** 
-- 🛠️ Dépôt officiel : **https://github.com/vercel/next.js**  
+Créer une fondation web moderne dédiée à la croissance verte, à l’écologie numérique, et à la technologie durable.
+
+greenERS est un starter, une base, une fondation.  
+À toi de construire l’avenir Green Tech.
 ```
-
----
-
-### ☁️ Déploiement sur Vercel
-- Déployez votre application en un clic :
-
-![Deploy with Vercel](https://vercel.com/new?utmmedium=default-template&filter=next.js&utmsource=create-next-app&utm_campaign=create-next-app-readme)
-
----
-
-### 📄 Licence
-
-Ce projet utilise la **greenERS License v1.0**.  
-- *Simple, permissive, originale*.
-
----
-
-### 🧑‍💻 Contributions
-
-- Les contributions sont les bienvenues
-   - Issues  
-   - Pull Requests  
-   - Suggestions d’amélioration  
-
----
-
-### 🌿 greenERS
-- — Build the Green Future
-Un projet simple aujourd’hui, un écosystème vert demain.
 
 ---
