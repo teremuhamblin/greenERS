@@ -1,0 +1,34 @@
+🔥 CODEOWNERS
+📍 Emplacement :  
+`
+.github/CODEOWNERS
+`
+
+`txt
+
+CODEOWNERS — greenERS
+
+Les propriétaires de chaque partie du code.
+
+GitHub assignera automatiquement les reviewers correspondants.
+
+Maintainer principal
+* @teremuhamblin
+
+Pages Next.js
+app/ @teremuhamblin
+
+Composants UI
+components/ @teremuhamblin
+
+API
+app/api/ @teremuhamblin
+
+Documentation
+docs/ @teremuhamblin
+
+Fichiers de gouvernance
+.github/ @teremuhamblin
+`
+
+---
