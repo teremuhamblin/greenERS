@@ -1,20 +1,17 @@
 Maintainer principal
-* @teremuhamblin
+* teremuhamblin
 
 Pages Next.js
-app/ @teremuhamblin
+app/ teremuhamblin
 
 Composants UI
-components/ @teremuhamblin
+components/ teremuhamblin
 
 API
-app/api/ @teremuhamblin
+app/api/ teremuhamblin
 
 Documentation
-docs/ @teremuhamblin
+docs/ teremuhamblin
 
 Fichiers de gouvernance
-.github/ @teremuhamblin
-`
-
----
+.github/ teremuhamblin
