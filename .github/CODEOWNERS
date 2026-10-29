@@ -1,17 +1,1 @@
-Maintainer principal
-* teremuhamblin
-
-Pages
-app/ teremuhamblin
-
-Composants 
-components/ teremuhamblin
-
-API
-app/api/ teremuhamblin
-
-Documentation
-docs/ teremuhamblin
-
-Fichiers de gouvernance
-.github/ teremuhamblin
+Principal teremuhamblin 
