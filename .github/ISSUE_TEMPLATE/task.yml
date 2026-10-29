@@ -1,0 +1,27 @@
+name: "📌 Task"
+description: "Créer une tâche technique, maintenance ou refactor pour greenERS"
+title: "[TASK] — "
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 Description"
+      description: "Décris la tâche à effectuer."
+      placeholder: "Exemple : Refactor du composant Navbar pour améliorer la structure…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🔧 Travail à effectuer"
+      description: "Liste les actions nécessaires."
+      placeholder: "- Nettoyer le code\n- Ajouter un hook\n- Mettre à jour la doc"
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: "📈 Impact"
+      description: "Explique la valeur ajoutée."
+      placeholder: "Amélioration de la lisibilité, performance, structure…"
