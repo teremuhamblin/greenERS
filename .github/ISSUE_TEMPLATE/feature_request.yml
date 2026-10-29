@@ -1,0 +1,32 @@
+name: "🚀 Feature Request"
+description: "Proposer une nouvelle fonctionnalité ou amélioration pour greenERS"
+title: "[FEATURE] — "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: objectif
+    attributes:
+      label: "🎯 Objectif"
+      description: "Décris la fonctionnalité souhaitée."
+      placeholder: "Exemple : Ajouter une page /dashboard pour les analytics Green Tech…"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexte
+    attributes:
+      label: "📘 Contexte"
+      description: "Pourquoi cette fonctionnalité est-elle utile ?"
+      placeholder: "Exemple : Permettre aux utilisateurs de visualiser l’impact écologique…"
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "🛠️ Implémentation potentielle"
+      placeholder: "Composants nécessaires, API, design, modules…"
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: "📈 Impact attendu"
+      placeholder: "Performance, UX, valeur ajoutée, cohérence Green Tech…"
