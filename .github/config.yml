@@ -1,0 +1,21 @@
+blank_issues_enabled: false
+
+contact_links: []
+
+issue_templates:
+  - name: "🐞 Bug Report"
+    description: "Signaler un bug dans greenERS"
+    path: "ISSUE_TEMPLATE/bug_report.yml"
+
+  - name: "🚀 Feature Request"
+    description: "Proposer une nouvelle fonctionnalité"
+    path: "ISSUE_TEMPLATE/feature_request.yml"
+
+  - name: "📌 Task"
+    description: "Créer une tâche technique ou maintenance"
+    path: "ISSUE_TEMPLATE/task.yml"
+
+pull_request_templates:
+  - name: "🔧 Pull Request"
+    description: "Template standard pour les PR greenERS"
+    path: "PULL_REQUEST_TEMPLATE/PULLREQUESTTEMPLATE.md"
