@@ -1,1 +1,35 @@
-* teremuhamblin 
+# ============================================================
+#  CODEOWNERS — greenERS
+#  Propriétaires du code et responsables des revues
+#  GitHub assignera automatiquement les reviewers
+# ============================================================
+
+# 👑 Propriétaire global du projet
+* @teremuhamblin
+
+# 🌱 Pages Next.js (App Router)
+app/ @teremuhamblin
+app/* @teremuhamblin
+
+# 🔌 API Routes
+app/api/ @teremuhamblin
+app/api/* @teremuhamblin
+
+# 🎨 Composants UI
+components/ @teremuhamblin
+components/* @teremuhamblin
+
+# 📚 Documentation interne
+docs/ @teremuhamblin
+docs/* @teremuhamblin
+
+# ⚙️ Fichiers de configuration et gouvernance GitHub
+.github/ @teremuhamblin
+.github/* @teremuhamblin
+
+# 🖼️ Assets publics
+public/ @teremuhamblin
+
+# 🧪 Tests (si ajoutés)
+tests/ @teremuhamblin
+tests/* @teremuhamblin
