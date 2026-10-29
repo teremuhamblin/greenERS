@@ -1,12 +1,44 @@
-name: Bug Report
-description: Signaler un bug dans greenERS
+name: "🐞 Bug Report"
+description: "Signaler un bug dans greenERS"
+title: "[BUG] — "
+labels: ["bug"]
 body:
   - type: textarea
-    id: bug
-    label: Description du bug
+    id: description
+    attributes:
+      label: "🔧 Description du bug"
+      description: "Explique clairement le problème rencontré."
+      placeholder: "Exemple : La page /green-tech ne charge pas correctement…"
+    validations:
+      required: true
+
   - type: textarea
     id: steps
-    label: Étapes pour reproduire
+    attributes:
+      label: "🔁 Étapes pour reproduire"
+      description: "Liste les étapes exactes pour reproduire le bug."
+      placeholder: "1. Aller sur /green-growth\n2. Cliquer sur…\n3. Le bug apparaît"
+    validations:
+      required: true
+
   - type: textarea
     id: expected
-    label: Résultat attendu
+    attributes:
+      label: "📌 Comportement attendu"
+      placeholder: "Décris ce qui aurait dû se produire."
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: "🖥️ Environnement"
+      description: "Navigateur, OS, version Node, version Next.js…"
+      placeholder: "Chrome 128, macOS, Node 20, Next.js 14"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "📎 Logs / Screenshots"
+      description: "Ajoute tout élément utile."
+      placeholder: "Stacktrace, capture d’écran, message d’erreur…"
