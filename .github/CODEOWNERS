@@ -1,17 +1,3 @@
-🔥 CODEOWNERS
-📍 Emplacement :  
-`
-.github/CODEOWNERS
-`
-
-`txt
-
-CODEOWNERS — greenERS
-
-Les propriétaires de chaque partie du code.
-
-GitHub assignera automatiquement les reviewers correspondants.
-
 Maintainer principal
 * @teremuhamblin
 
