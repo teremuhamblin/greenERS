@@ -1,0 +1,12 @@
+name: Bug Report
+description: Signaler un bug dans greenERS
+body:
+  - type: textarea
+    id: bug
+    label: Description du bug
+  - type: textarea
+    id: steps
+    label: Étapes pour reproduire
+  - type: textarea
+    id: expected
+    label: Résultat attendu
